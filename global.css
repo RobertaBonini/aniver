@@ -1,0 +1,38 @@
+*{
+
+}
+
+body{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.corpo {
+display: grid;
+grid-template-columns: 30% 70%;
+}
+aside{
+  background-image: url(assets/Background.png);
+  background-size: cover;
+   font-family: "Open Sans", sans-serif;
+   color: white;
+   font-size: 1rem;
+
+   width: 25rem;
+   height: 45.5rem;
+   padding: 2rem;
+  & h1{
+      font-family: "Leckerli One", cursive;
+      font-size: 2.5rem;
+      color: #FF598B;
+      margin-top: 1rem;
+      margin-bottom: 0.25rem;
+  }
+  img{
+    width: 45px;
+  }
+  p{
+    margin: auto;
+  }
+}
