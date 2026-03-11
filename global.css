@@ -6,12 +6,16 @@ body{
   margin: 0%;
   padding: 0;
   box-sizing: border-box;
+  background-color: #2D3136;
+  color: white;
+  overflow:hidden;
 }
 
 .corpo {
 display: grid;
 grid-template-columns: 30% 70%;
 }
+
 aside{
   background-image: url(assets/Background.png);
   background-size: cover;
@@ -35,4 +39,37 @@ aside{
   p{
     margin: auto;
   }
+}
+
+/* começando a main */
+
+main{
+  height: 100vh;
+  overflow: auto;
+  margin: 5rem 8.13rem;
+
+  & h1{
+    font-family: "Baloo 2", sans-serif;
+  }
+}
+
+main fieldset{
+  border: none;
+}
+
+legend{
+  font-family: "Baloo 2", sans-serif;
+  display: flex;
+  align-items: center;
+
+  & img{
+      height: 24px;
+      margin: 0.5rem;
+    }
+
+}
+
+input{
+  width: 35rem;
+  
 }
